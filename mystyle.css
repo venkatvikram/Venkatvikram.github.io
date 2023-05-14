@@ -1,33 +1,44 @@
-Body { background-color: #ECECEC;   
+body {
+  background-color: #121212;
+  color: #333; 
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+  color: #fffafa;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+
+}
+#buttons {
+  width: 100%; 
+  height: 40px; 
+}
+#bio {
+  padding: 20px;
+  width: 200px;
+  height: 600px;
+ float: left;
+  margin: 20px;
+}
+h1 {
+  font-size: 62px; 
+  font-weight: bold;
+  color: #fffafa;
+  padding: 20px;
+}
+button {
+  background-color: grey;
+  color: #fff; 
+  font-family: Arial;
+  border: none;  
+  border-radius: 5px;
+  padding: 8px 25px; 
+  transition: all 0.3s ease-in-out; 
 }
 
-Img { width =70 height="10"
- }
-
-banner {
-width: 200px;
-height: 300px;
- }
-
-  h1{
-  font-size: 40px;"
- }
-
- button { background-color: grey;
-  font-family: arial;
-  border: 10px;
-  border-color: black;
-  align-items: center;
-   }
-
-     #formPopup {
-  display: inline;
-  position: fixed;
-  top: 100%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  padding: 20px;
-  border: 1px solid #ccc;
-  z-index: 9999;
+button:hover {
+  background-color: #333; 
 }
