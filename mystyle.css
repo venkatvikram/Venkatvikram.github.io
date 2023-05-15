@@ -2,6 +2,18 @@ body {
   background-color: #121212;
   color: #faf0f0; 
 }
+
+#btn1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#btn1 button {
+  margin: 0 10px;
+}
+
+
 form {
   display: flex;
   flex-direction: column;
@@ -119,6 +131,6 @@ button:hover {
   align-content: space-between;
   align-items: flex-end;
   width: 1000px;
-  height: 100px;
-  background-color: yellowgreen;
+  height: 10px;
+  background-color: white;
 }
