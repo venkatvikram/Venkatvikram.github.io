@@ -1,10 +1,9 @@
 body {
   background-color: #121212;
   color: #faf0f0;
-  border-color: yellow; 
   margin: 10px;
   border-radius: 20px;
-  border: 10px;
+  border: 1px solid yellow;
 }
 
 #btn1 {
@@ -25,6 +24,8 @@ form {
   align-items: baseline;
   width: 450px;
   height: 300px;
+  border-radius: 20px;
+  border: 1px solid yellow;
 }
 
 label {
@@ -49,9 +50,8 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding: 5px;
-border: none;
-border-radius: 5px;
-
+border-radius: 20px;
+border: 1px solid yellow;
 }
 
 #buttons {
@@ -61,19 +61,21 @@ border-radius: 5px;
 
 #learning { 
   display: flex;
- flex-direction: row;
- justify-content: space-between;
- border: 3px;
- border-radius: 5px;
- border-color: white;
- font-size: 20px;
- width: 670px;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  Width: 1000px;
+  height: 100px;
+  border-radius: 20px;
+  border: 1px solid yellow;
 }
 
 #course, #course1 {
 display: flex;
 flex-direction: column;
 align-items: stretch;
+border-radius: 20px;
+border: 1px solid yellow;
 }
 
 #course li, #course1 li {
@@ -150,7 +152,8 @@ button:hover {
   align-content: space-between;
   width: 1000px;
   height: 100px;
-  background-color: yellow;
+  border-radius: 20px;
+  border: 1px solid yellow;
 }
 #contact1 {
 display: flex;
