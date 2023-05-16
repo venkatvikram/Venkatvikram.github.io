@@ -1,6 +1,10 @@
 body {
   background-color: #121212;
-  color: #faf0f0; 
+  color: #faf0f0;
+  border-color: yellow; 
+  margin: 10px;
+  border-radius: 20px;
+  border: 10px;
 }
 
 #btn1 {
@@ -11,6 +15,7 @@ body {
 
 #btn1 button {
   margin: 0 10px;
+  background-color: ;
 }
 
 
@@ -100,22 +105,36 @@ align-items: stretch;
 h1 {
   font size: 62px; 
   font-weight: bold;
-  color: #fffafa;
+  color: yellow;
   padding: 20px;
 }
-#style1 {
+p {
+font-size: 25px;
+padding: 25px;
+}
+
+#style1  {
     padding: 10px;
     border-width: 600px;
     border-color: white;
     border-style: solid;
     margin: 5px;
-    background-color: yellowgreen;
-  }
+    }
+
+
+#style2  {
+    padding: 10px;
+    border-width: 600px;
+    border-color: white;
+    border-style: solid;
+    margin: 5px;
+    }
+
 
 
 button {
   background-color: grey;
-  color: #fff; 
+  color: Black; 
   font-family: Arial;
   border: none;  
   border-radius: 5px;
@@ -123,14 +142,18 @@ button {
   transition: all 0.3s ease-in-out; 
 }
 button:hover {
-  background-color: #333; 
+  background-color: yellow; 
 }
 #contact {
   display: flex;
   flex-direction: row;
   align-content: space-between;
-  align-items: flex-end;
   width: 1000px;
-  height: 10px;
-  background-color: white;
+  height: 100px;
+  background-color: yellow;
+}
+#contact1 {
+display: flex;
+align-items: baseline;
+align-content: space-between;
 }
