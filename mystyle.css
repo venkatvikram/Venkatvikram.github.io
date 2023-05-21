@@ -12,9 +12,20 @@ body {
   margin: 20px 0;
 }
 
+.languages {
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
 #btn1 button {
   margin: 0 10px;
   background-color: ;
+}
+#Downlaod {
+  margin-left: 15px;
+  display: block;
+  direction: ;
 }
 
 
