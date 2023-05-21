@@ -10,3 +10,11 @@ form.addEventListener('submit', function(event) {
   // Code to process the form data goes here
   form.style.display = 'none';
 });
+
+<script>
+  function scrollToContactSection() {
+    const contactSection = document.getElementById("contactSection");
+    contactSection.scrollIntoView({ behavior: "smooth" });
+  }
+</script>
+
