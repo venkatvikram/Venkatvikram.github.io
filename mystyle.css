@@ -1,3 +1,5 @@
+@media screen and (min-width: 1024px)
+{
 body {
   background-color: #121212;
   color: #faf0f0;
@@ -37,6 +39,11 @@ td {
 display: flex;
 flex-direction: column;
 justify-content: space between;
+}
+#Name {
+  font-size: 60px;
+  display: block;
+  justify-content: center;
 }
 
 #btn1 button {
@@ -161,6 +168,7 @@ padding: 25px;
 #intro, #socialMedia {
       width: 50%;
 }
+
 button {
   background-color: grey;
   color: Black; 
@@ -198,4 +206,51 @@ p {
 
 h2, h3 {
   margin-left: 10px;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+Body{
+  background-color: #121212;
+  color: #faf0f0;
+  margin: 10px;
+  border-radius: 20px;
+  border: 1px solid yellow;
+  margin-left: 15PX;
+  padding: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 450px;
+  height: 300px;
+  border-radius: 20px;
+  }
+
+label {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  color: #333;
+  resize: vertical;
+}
+
+
 }
