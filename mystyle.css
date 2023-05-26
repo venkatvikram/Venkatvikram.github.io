@@ -2,21 +2,15 @@
 {
 body {
   background-color: #121212;
+  font-family: arial;
   color: #faf0f0;
   margin: 10px;
   border-radius: 20px;
   border: 1px solid yellow;
   margin-left: 15PX;
-  padding: 5px;
+  padding: 10px;
 }
 
-table {
-  table-layout: fixed ;
-  width: 100% ;
-}
-td {
-  width: 25% ;
-}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -41,12 +35,20 @@ flex-direction: column;
 justify-content: space between;
 }
 #Name {
-  font-size: 120px;
+  font-size: 100px;
+  font-family: arial;
   font-color:white;
   border-bottom: 1px solid yellow;
   display: flex;
   justify-content: center;
 
+}
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 #btn1 button {
@@ -57,33 +59,6 @@ justify-content: space between;
   margin-left: 15px;
   display: block;
   justify-content: 
-}
-
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  width: 450px;
-  height: 300px;
-  border-radius: 20px;
-  }
-
-label {
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-
-input, textarea {
-  margin-bottom: 15px;
-  padding: 5px;
-  border-radius: 5px;
-  border: none;
-  width: 100%;
-  max-width: 400px;
-  font-size: 16px;
-  color: #333;
-  resize: vertical;
 }
 
 th {
@@ -103,20 +78,9 @@ th {
   font-size: 25px;
   font-color: white;
   Width: 1000px;
-  height: 150px;
+  height: 300px;
   }
 
-
-
-#course, #course1 {
-display: flex;
-flex-direction: column;
-align-items: stretch;
-}
-
-#course li, #course1 li {
-  margin-right: 10px;
-}
 
 #service {
   margin-left: 30vw;
@@ -126,12 +90,13 @@ align-items: stretch;
 #Table2 {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 900px;
+  justify-content: Space-evenly;
+  width: 1200px;
   height: 300px;
 }
 li {
   font-size: 30px;
+  margin-left: 20px;
 }
 #service td {
 padding: 0 30px 20;
@@ -151,24 +116,14 @@ flex-direction: column;
 justify-content: space-between;
 }
 
-#ERP {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
-
 
 h1 {
-  font size: 62px; 
+  font size: 70px; 
   font-weight: bold;
   color: yellow;
-  padding: 20px;
+  padding: 10px;
 }
 
-p {
-font-size: 25px;
-padding: 25px;
-}
 
 #intro, #socialMedia {
       width: 50%;
@@ -189,17 +144,18 @@ button:hover {
 
 #Social_media {
   display: flex;
-  flex-direction: row;
-  align-content: space-evenly;
-  width: 200px;
-  height: 30px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+#Social_media a {
+  margin-right: 15px;
 }
 
-#contact1 {
-display: flex;  
-align-items: baseline;
-align-content: space-between;
+#Social_media img {
+  width: 50px;
+  height: 50px;
 }
+
 p {
   padding: 20px;
   width: 600px;
@@ -209,38 +165,209 @@ p {
   font-size: 40px;
 }
 
-h2, h3 {
+h2,  {
   margin-left: 10px;
 }
 }
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
 
+label {
+  display: flex;
+  flex-direction: row;
+  align-content: baseline;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
 
-
-
-
+input, textarea {
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  color: #333;
+  resize: vertical;
+}
 
 @media screen and (max-width: 767px) {
 
 Body{
   background-color: #121212;
   color: #faf0f0;
-  margin: 10px;
-  border-radius: 20px;
-  border: 1px solid yellow;
-  margin-left: 15PX;
-  padding: 5px;
+  margin: 2px;
+  padding: 1px;
 }
 
-form {
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#btn1 {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+#intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between  ;
+
+}
+
+.languages {
+display: flex;
+flex-direction: column;
+justify-content: space between;
+}
+#Name {
+  font-size: 20px;
+  font-family: arial;
+  font-color:white;
+  border-bottom: 1px solid yellow;
+  display: flex;
+  justify-content: center;
+
+}
+
+#btn1 button {
+  margin: 0 10px;
+  background-color: ;
+}
+#Downlaod {
+  margin-left: 15px;
+  display: block;
+  justify-content: 
+}
+
+th {
+  font-size: 30px;
+  color: yellow;
+}
+
+#buttons {
+  width: 100%; 
+  height: 40px; 
+}
+
+#learning { 
   display: flex;
   flex-direction: column;
-  align-items: baseline;
-  width: 450px;
+  justify-content: space-between;
+  font-size: 25px;
+  font-color: white;
+  Width: 100%;
   height: 300px;
-  border-radius: 20px;
+  }
+
+#service {
+  margin-left: 30vw;
+  text-align: center;
+}
+
+#Table2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: Space-evenly;
+  width: 1200px;
+  height: 300px;
+}
+
+li {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+#service td {
+padding: 0 30px 20;
+}
+
+#service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1000px;
+}
+
+
+#language {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+
+h1 {
+  font size: 70px; 
+  font-weight: bold;
+  color: yellow;
+  padding: 10px;
+}
+
+
+#intro, #socialMedia {
+      width: 50%;
+}
+
+button {
+  background-color: grey;
+  color: Black; 
+  font-family: Arial;
+  border: none;  
+  border-radius: 5px;
+  padding: 8px 25px; 
+  transition: all 0.3s ease-in-out; 
+}
+button:hover {
+  background-color: yellow; 
+}
+
+#Social_media {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+#Social_media a {
+  margin-right: 10px;
+}
+
+#Social_media img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+p {
+  padding: 20px;
+  width: 600px;
+  font-size: 25px;
+}
+h2,  {
+  margin-left: 10px;
+}
+}
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 300px;
+  margin-left: 10px;
   }
 
 label {
+  display: flex;
+  flex-direction: row;
+  align-content: baseline;
   margin-top: 10px;
   margin-bottom: 5px;
 }
@@ -258,4 +385,3 @@ input, textarea {
 }
 
 
-}
