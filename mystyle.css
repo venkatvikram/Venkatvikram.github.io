@@ -1,5 +1,4 @@
-@media screen and (min-width: 1024px)
-{
+
 body {
   background-color: lightslategrey;
   font-family: arial;
@@ -10,6 +9,36 @@ body {
   margin-left: 15px;
   padding: 10px;
 }
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 300px;
+  margin-left: 10px;
+  }
+
+label {
+  display: flex;
+  flex-direction: row;
+  align-content: baseline;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  color: #333;
+  resize: vertical;
+}
+
+
 
 .container {
   display: flex;
@@ -168,194 +197,4 @@ h2 {
 
 
 
-}@media screen and (max-width: 767px) {
-
-Body{
-  background-color: #121212;
-  color: #faf0f0;
-  margin: 2px;
-  padding: 1px;
 }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: baseline;
-}
-
-#btn1 {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-#intro {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between  ;
-
-}
-
-.languages {
-display: flex;
-flex-direction: column;
-justify-content: space between;
-}
-
-#name {
-  font-size: 20px;
-  font-family: arial;
-  font-color:white;
-  border-bottom: 1px solid yellow;
-  display: flex;
-  justify-content: center;
-
-}
-
-#btn1 button {
-  margin: 0 10px;
-  background-color: ;
-}
-#Downlaod {
-  margin-left: 15px;
-  display: block;
-  justify-content: 
-}
-
-th {
-  font-size: 30px;
-  color: yellow;
-}
-
-#buttons {
-  width: 100%; 
-  height: 40px; 
-}
-
-#learning { 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-size: 25px;
-  font-color: white;
-  Width: 100%;
-  height: 300px;
-  }
-
-#service {
-  margin-left: 30vw;
-  text-align: center;
-}
-
-#Table2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: Space-evenly;
-  width: 1200px;
-  height: 300px;
-}
-
-li {
-  font-size: 30px;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-#service td {
-padding: 0 30px 20;
-}
-
-#service {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 1000px;
-}
-
-
-#language {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
-
-
-h1 {
-  font size: 70px; 
-  font-weight: bold;
-  color: yellow;
-  padding: 10px;
-}
-
-
-#intro, #socialMedia {
-      width: 50%;
-}
-
-button {
-  background-color: grey;
-  color: Black; 
-  font-family: Arial;
-  border: none;  
-  border-radius: 5px;
-  padding: 8px 25px; 
-  transition: all 0.3s ease-in-out; 
-}
-button:hover {
-  background-color: yellow; 
-}
-
-#Social_media {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: 20px;
-}
-#Social_media a {
-  margin-right: 10px;
-}
-
-#Social_media img {
-  width: 50px;
-  height: 50px;
-}
-
-
-
-p {
-  padding: 20px;
-  width: 600px;
-  font-size: 25px;
-}
-h2,  {
-  margin-left: 10px;
-}
-}
-#form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  height: 300px;
-  margin-left: 10px;
-  }
-
-label {
-  display: flex;
-  flex-direction: row;
-  align-content: baseline;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
-
-input, textarea {
-  margin-bottom: 15px;
-  padding: 5px;
-  border-radius: 5px;
-  border: none;
-  width: 100%;
-  max-width: 400px;
-  font-size: 16px;
-  color: #333;
-  resize: vertical;
-}
-
-
