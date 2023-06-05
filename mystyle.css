@@ -63,11 +63,13 @@ input, textarea {
 }
 
 #Name {
-  font-size: 100px;
+  font-size: 150px;
   font-family: arial;
   color: white;
   display: flex;
   justify-content: center;
+  height: 600px;
+  background-color: ;
 }
 
 #btn1 button {
