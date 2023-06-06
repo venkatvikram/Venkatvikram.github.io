@@ -38,10 +38,11 @@ input, textarea {
 
 
 
-.container {
+#container {
   display: flex;
   flex-direction: row;
   justify-content: baseline;
+  align-content: space-around;
 }
 
 #btn1 {
@@ -68,7 +69,11 @@ input, textarea {
   color: white;
   display: flex;
   justify-content: center;
-  height: 600px;
+<<<<<<< HEAD
+  height: 300px;
+=======
+  height: 200px;
+>>>>>>> 29e43d735eebf66b1d14a69fd9cbc9486d569b31
   background-color: ;
 }
 
@@ -163,6 +168,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: inherit;
   margin-top: 20px;
   margin-left: 150px;
 }
