@@ -1,15 +1,29 @@
 
 body {
-  background-color: lightslategrey;
+  background-color: #c8cec8;
   font-family: arial;
-  color: #faf0f0;
-  margin: 10px;
-  border-radius: 20px;
-  border: 1px solid yellow;
-  margin-left: 15px;
-  padding: 10px;
+  color: #0f0f0f;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .img .BT1{
+  position: absolute
+  font-size: 16px;
+  cursor: pointer;
+}
+.bt1{
+  top: 50%;
+  left: 50%;
 }
 
+button {
+  position: absolute;
+  background-color: blue ;
+
+}
 #form {
   display: flex;
   flex-direction: column;
@@ -26,6 +40,9 @@ label {
   margin-bottom: 5px;
 }
 
+
+
+
 input, textarea {
   margin-bottom: 15px;
   padding: 5px;
@@ -40,10 +57,11 @@ input, textarea {
 
 
 
-.container {
+#container {
   display: flex;
   flex-direction: row;
-  justify-content: baseline;
+  justify-content: initial;
+
 }
 
 #btn1 {
@@ -67,8 +85,7 @@ input, textarea {
 #Name {
   font-size: 100px;
   font-family: arial;
-  color: white;
-  border-bottom: 1px solid yellow;
+  color: #0f0f0f;
   display: flex;
   justify-content: center;
 }
@@ -78,10 +95,8 @@ input, textarea {
   background-color: ;
 }
 
-#Download {
-  margin-left: 15px;
-  display: block;
-  justify-content: ;
+##download{
+align-items: baseline;
 }
 
 #buttons {
@@ -94,7 +109,7 @@ input, textarea {
   flex-direction: column;
   justify-content: space-between;
   font-size: 25px;
-  color: white;
+  color: #0f0f0f;
   width: 1000px;
   height: 250px;
 }
@@ -137,14 +152,23 @@ li {
 h1 {
   font-size: 70px;
   font-weight: bold;
-  color: yellow;
-  padding: 10px;
+  color: orange;
+}
+
+p {
+  font-size: 70px;
+  color: black;
 }
 
 #intro,
 #socialMedia {
   width: 50%;
 }
+
+#social_Media {
+margin-top: 60px;
+}
+
 
 button {
   background-color: white;
@@ -184,8 +208,7 @@ ol{
 }
 p {
   padding: 20px;
-  width: 600px;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 h1 {
