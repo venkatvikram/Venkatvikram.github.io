@@ -1,250 +1,70 @@
-
 body {
-  background-color: #c8cec8;
-  font-family: arial;
-<<<<<<< HEAD
-  color: #0f0f0f;
-  }
-  img {
-    width: 100%;
-    height: auto;
-  }
-
-  .img .BT1{
-  position: absolute
-  font-size: 16px;
-  cursor: pointer;
-}
-.bt1{
-  top: 50%;
-  left: 50%;
-=======
-  color: #faf0f0;
-  margin: 10px;
-  margin-left: 15px;
-  padding: 10px;
->>>>>>> eea690251c37603c4253352039504bd23940d221
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-<<<<<<< HEAD
-
-=======
-button {
-  position: absolute;
-  background-color: blue ;
-
-}
->>>>>>> 61c83915340c71b799bae1d3a750fbbad6e9103a
-#form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  height: 300px;
-  margin-left: 10px;
-  }
-
-label {
-  display: flex;
-  flex-direction: row;
-  align-content: baseline;
-  margin-top: 10px;
-  margin-bottom: 5px;
+#Download {
+  position: fixed;
+  top: 20px;
+  right: 20px;
 }
 
-
-
-
-input, textarea {
-  margin-bottom: 15px;
-  padding: 5px;
-  border-radius: 5px;
-  border: none;
-  width: 100%;
-  max-width: 400px;
-  font-size: 16px;
-  color: #333;
-  resize: vertical;
-}
-
-
-
-#container {
-  display: flex;
-  flex-direction: row;
-<<<<<<< HEAD
-  justify-content: initial;
-
-=======
-  justify-content: baseline;
-  align-content: space-around;
->>>>>>> eea690251c37603c4253352039504bd23940d221
-}
-
-#btn1 {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-#intro {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.languages {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#Name {
-  font-size: 150px;
-  font-family: arial;
-<<<<<<< HEAD
-  color: #0f0f0f;
-=======
-  color: white;
->>>>>>> eea690251c37603c4253352039504bd23940d221
-  display: flex;
-  justify-content: center;
-<<<<<<< HEAD
-  height: 300px;
-=======
-  height: 200px;
->>>>>>> 29e43d735eebf66b1d14a69fd9cbc9486d569b31
-  background-color: ;
-}
-
-#btn1 button {
-  margin: 0 10px;
-  background-color: ;
-}
-
-##download{
-align-items: baseline;
-}
-
-#buttons {
-  width: 100%;
-  height: 40px;
-}
-
-#learning {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  font-size: 25px;
-  color: #0f0f0f;
-  width: 1000px;
-  height: 250px;
-}
-
-#service {
-  margin-left: 30vw;
-  text-align: center;
-}
-
-#Table2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 1200px;
-  height: 300px;
-}
-
-li {
-  font-size: 25px;
-  margin-left: 20px;
-}
-
-#service td {
-  padding: 0 30px 20px;
-}
-
-#service {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 1000px;
-}
-
-#language {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-h1 {
-  font-size: 70px;
-  font-weight: bold;
-  color: orange;
-}
-
-p {
-  font-size: 70px;
-  color: black;
-}
-
-#intro,
-#socialMedia {
-  width: 50%;
-}
-
-#social_Media {
-margin-top: 60px;
-}
-
-
-button {
-  background-color: white;
-  color: black;
-  font-family: Arial;
-  border: 1px solid darkred;
-  border-radius: 5px;
-  padding: 8px 25px;
-  transition: all 0.3s ease-in-out;
-}
-
-button:hover {
-  background-color: yellow;
-}
-
-#Social_media {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: inherit;
-  margin-top: 20px;
-  margin-left: 150px;
-}
-
-#Social_media a {
-  margin-right: 15px;
-}
-
-#Social_media img {
-  width: 50px;
-  height: 50px;
-}
-
-ol{
-  font-size: 25px;
-  width: 600px;
+header {
+  background-color: #333;
+  color: #fff;
   padding: 20px;
 }
-p {
-  padding: 20px;
-  font-size: 30px;
+
+header h1 {
+  margin: 0;
 }
 
-h1 {
-  font-size: 40px;
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 20px;
+}
+
+#about,
+#projects,
+#contact {
+  margin-bottom: 40px;
 }
 
 h2 {
-  margin-left: 10px;
+  color: #333;
+}
 
+.project {
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin-bottom: 20px;
+}
 
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
 
+a {
+  color: inherit;
+  text-decoration: underline;
 }
